@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anasayfa</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <div class="navbar">
+        <ul class="nav_links">
+          <li><a href="main.html">Anasayfa</a></li>
+          <li><a href="html/hakkimda.html">Hakkımda</a></li>
+          <li><a href="html/projelerim.html">Projelerim</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Anasayfa İçerik -->
+    <section>
+      <img src="img/profil-foto.jpg" alt="Fotoğraf" class="profile-photo" />
+      <h2>Sinem KESKİN</h2>
+      <h3>Bilgisayar Mühendisliği Öğrencisi</h3>
+      <h1>Hoş Geldiniz!!</h1>
+      <h2 id="saat"></h2>
+    </section>
+
+    <script src="js/script.js"></script>
+
+    <!-- contact us-->
+    <section id="contact" class="contact flex-columns">
+      <div class="row">
+        <div class="column">
+          <div class="column-2 bg-light">
+            <h2>Benimle iletişime geçin</h2>
+            <form action="" class="contact-form">
+              <div class="form-control">
+                <label for="name">İsim-Soyisim</label>
+                <input type="text" id="name" placeholder="İsminizi Giriniz" />
+              </div>
+              <div class="form-control">
+                <label for="name">E-posta</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="E-postanızı Giriniz"
+                />
+              </div>
+              <div class="form-control">
+                <label for="name">Mesaj</label>
+                <input
+                  type="text"
+                  id="mesaj"
+                  placeholder="İletmek istediğiniz mesajı giriniz"
+                />
+              </div>
+
+              <button type="sumbit" class="btn btn-primary">Gönder</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
