@@ -22,3 +22,21 @@ function toggleText() {
 
   isExpanded = !isExpanded;
 }
+
+function warningForm() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var text = document.getElementById("mesaj").value;
+
+  if (name === "") {
+    alert("İsminizi giriniz!");
+  } else if (email === "") {
+    alert("E-mailinizi giriniz!");
+  } else if (text === "") {
+    alert("Mesajınızı giriniz!");
+  } else {
+    alert(
+      "Mesajınız gönderildi. En kısa süre içinde geri dönüş sağlanacaktır:)"
+    );
+  }
+}
