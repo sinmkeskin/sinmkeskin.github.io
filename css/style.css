@@ -26,13 +26,13 @@ header {
 .nav_links {
   display: flex;
 }
-
 .nav_links li a {
   margin-left: 100px;
   color: #ffffffd4;
   padding: 5px 50px;
   border-radius: 5px;
   transition: all 0.5s ease-in-out;
+  text-decoration: none;
 }
 
 .nav_links li a:hover {
@@ -215,7 +215,7 @@ nav {
   display: block; /*mousla üstüne gelince metini gösterir */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   .navbar {
     width: 100%;
     padding: 5px;
